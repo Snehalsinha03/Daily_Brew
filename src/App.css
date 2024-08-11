@@ -1,0 +1,74 @@
+/* App.css */
+
+/* General body styles with transitions */
+body.light-mode {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+} 
+
+body.dark-mode {
+  background-color: rgb(54, 52, 52);
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navbar styles with transitions */
+.navbar-dark-mode {
+  background-color: #000000;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-light-mode {
+  background-color: #DC3534;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navbar brand styles */
+.navbar-brand-dark-mode {
+  color: white !important;
+  transition: color 0.3s;
+}
+
+.navbar-brand-light-mode {
+  color: white !important;
+  transition: color 0.3s;
+}
+
+/* Navbar link styles */
+.nav-link-dark-mode {
+  color: white !important;
+  transition: color 0.3s;
+}
+
+.nav-link-light-mode {
+  color: white !important;
+  transition: color 0.3s;
+}
+.btn-outline-dark {
+  color: white;           /* Text color */
+  border-color: rgb(249, 249, 249);    /* Outline color */
+}
+
+/* Headline text styles */
+/* .head-text-dark {
+  color: white!important;
+  transition: color 0.3s;
+} */
+
+/* .white {
+  color: white !important;
+  transition: color 0.3s;
+}
+
+.black {
+  color: black !important;
+  transition: color 0.3s;
+} */
+
+/* App general styles */
+.App {
+  text-align: center;
+}
